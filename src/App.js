@@ -4,7 +4,7 @@ import Counter from './Counter.jsx';
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Counter initialCount={0} />
     </div>
   );
 }
